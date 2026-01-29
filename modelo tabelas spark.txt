@@ -1,0 +1,68 @@
+#Criação das tabelas
+
+CREATE TABLE df_analise_preco(
+    minimo NUMERIC(10, 4),
+	maximo NUMERIC(10, 4),
+	validos BIGINT,
+	preco_medio NUMERIC(10, 4),
+	desvio_padrao NUMERIC(10, 4)
+);
+
+CREATE TABLE df_analise_preco_out(
+    minimo NUMERIC(10, 4),
+	maximo NUMERIC(10, 4),
+	validos BIGINT,
+	preco_medio NUMERIC(10, 4),
+	desvio_padrao NUMERIC(10, 4)
+)
+
+CREATE TABLE df_distribuicao_preco(
+    category_code varchar(50),
+	faixa_preco BIGINT,
+	qtd_vendas BIGINT,
+	valor_total NUMERIC(20,6)
+)
+
+CREATE TABLE df_sk_kurt(
+    assimetria DOUBLE PRECISION,
+	curtose DOUBLE PRECISION
+);
+
+CREATE TABLE df_prod_pop(
+   product_id INT,
+   num_interacoes BIGINT
+);
+
+CREATE TABLE df_conversao(
+   product_id INT,
+   cart BIGINT,
+   purchase BIGINT,
+   vieww BIGINT, 
+   taxa_conversao NUMERIC(10,4)
+);
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#Leva tabelas feitas no Python e armazenadas no computador para o Postgres
+
+COPY df_analise_preco
+FROM 'C:\Users\Paulo\Videos\Downloads\diretorio_csv\analise_preco\df_analise_preco.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+COPY df_analise_preco_out
+FROM 'C:\Users\Paulo\Videos\Downloads\diretorio_csv\comportamento\df_comportamento.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+COPY df_conversao
+FROM 'C:\Users\Paulo\Videos\Downloads\diretorio_csv\conversao\df_conversao.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+COPY df_prod_pop
+FROM 'C:\Users\Paulo\Videos\Downloads\diretorio_csv\prod_pop\df_prod_pop.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+COPY df_distribuicao_preco
+FROM 'C:\Users\Paulo\Videos\Downloads\diretorio_csv\distribuicao\df_distribuicao.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+INSERT INTO df_sk_kurt (assimetria, curtose) VALUES (3.284038327571408, 13.436492501016133)

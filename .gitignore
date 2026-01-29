@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+data/raw/*
+!data/raw/sample.csv
+powerbi/*.pbix
+*.csv
+data/
