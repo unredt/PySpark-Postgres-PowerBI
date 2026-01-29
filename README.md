@@ -22,7 +22,7 @@ sem substituir por completo o desenvolvimento e a compreensão do código.
 
 ## Dashboards
 Os dashboards abaixo foram construídos no Power BI a partir das tabelas
-construídas no Python e armazenadas no Postgres
+construídas no Python e armazenadas no Postgres<br><br>
 
 
 <img width="1412" height="792" alt="BI_Vendas" src="https://github.com/user-attachments/assets/7904205f-7a82-4eb0-8f2e-f85d4a4b41c4" /><br><br>
