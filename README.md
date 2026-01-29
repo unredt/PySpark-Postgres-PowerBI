@@ -1,13 +1,13 @@
-# Pipeline para análise de 67.5 milhões de registros  
+# Pipeline para análise de 67,5 milhões de registros  
 
 ## 📌 APRESENTAÇÃO
 
-O objetivo deste projeto foi aprender de maneira prática a utilização de PySpark.<br>
+O objetivo deste projeto foi aprender de maneira prática a utilização de PySpark para análise de dados, utilizando um conjunto de dados apropriado para análise em larga escala.<br>
+
+Para tanto, elaborei a ingestão de dados em PySpark, armazenamento em Postgres, visualização via PowerBI.
+
 Ferramentas de IA foram utilizadas como apoio ao aprendizado e validação de abordagens,
 sem substituir por completo o desenvolvimento e a compreensão do código.
-
-O projeto envolve ingestão de dados em larga escala com PySpark,
-armazenamento em Postgres e visualização com Power BI.
 
 ## Pipeline
 1. Ingestão de dados com PySpark
@@ -25,11 +25,11 @@ Os dashboards abaixo foram construídos no Power BI a partir das tabelas
 construídas no Python e armazenadas no Postgres
 
 
-<img width="1412" height="792" alt="BI_Vendas" src="https://github.com/user-attachments/assets/7904205f-7a82-4eb0-8f2e-f85d4a4b41c4" />
+<img width="1412" height="792" alt="BI_Vendas" src="https://github.com/user-attachments/assets/7904205f-7a82-4eb0-8f2e-f85d4a4b41c4" /><br><br>
 
-<img width="1410" height="793" alt="BI_Métricas_sem_outlier" src="https://github.com/user-attachments/assets/70900355-aaa4-4c71-a826-c3a6d4f4da9d" />
+<img width="1410" height="793" alt="BI_Métricas_sem_outlier" src="https://github.com/user-attachments/assets/70900355-aaa4-4c71-a826-c3a6d4f4da9d" /><br><br>
 
-<img width="1409" height="792" alt="BI_Métricas_com_outlier" src="https://github.com/user-attachments/assets/5bf4e27f-995b-4f0a-aff1-f09d8d72fb0f" />
+<img width="1409" height="792" alt="BI_Métricas_com_outlier" src="https://github.com/user-attachments/assets/5bf4e27f-995b-4f0a-aff1-f09d8d72fb0f" /><br><br>
 
-<img width="1409" height="791" alt="BI_Produtos_Populares" src="https://github.com/user-attachments/assets/223b4c2e-82e2-497d-95e1-921cbe31d592" />
+<img width="1409" height="791" alt="BI_Produtos_Populares" src="https://github.com/user-attachments/assets/223b4c2e-82e2-497d-95e1-921cbe31d592" /><br><br>
 
