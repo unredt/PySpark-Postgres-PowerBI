@@ -1,14 +1,13 @@
 # Pipeline para análise de 67.5 milhões de registros  
 
 ## 📌 APRESENTAÇÃO
-Análise de dados de uma tabela com 67.5 milhões de linhas.
-O objetivo deste projeto foi aprender de maneira prática a utilização de PySpark
-para trabalhar com grande quantidade de dados. Utilizei a IA Gemini como tutor para:<br>
-1- aprender PySpark<br>
-2- aprender boas práticas de Análise de Dados
+
+O objetivo deste projeto foi aprender de maneira prática a utilização de PySpark.<br>
+Ferramentas de IA foram utilizadas como apoio ao aprendizado e validação de abordagens,
+sem substituir por completo o desenvolvimento e a compreensão do código.
 
 O projeto envolve ingestão de dados em larga escala com PySpark,
-armazenamento em Postgre e visualização com Power BI.
+armazenamento em Postgres e visualização com Power BI.
 
 ## Pipeline
 1. Ingestão de dados com PySpark
