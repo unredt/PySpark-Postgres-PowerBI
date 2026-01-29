@@ -3,7 +3,7 @@
 ## 📌 APRESENTAÇÃO
 Análise de dados de uma tabela com 67.5 milhões de linhas.
 O objetivo deste projeto foi aprender de maneira prática a utilização de PySpark
-para trabalhar com grande quantidade de dados. Utilizei o Gemini como tutor para:
+para trabalhar com grande quantidade de dados. Utilizei a IA Gemini como tutor para:
 1- aprender PySpark
 2- aprender boas práticas de Análise de Dados
 
