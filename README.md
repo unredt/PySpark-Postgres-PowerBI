@@ -1,4 +1,4 @@
-# Pipeline para análise de 67,5 milhões de registros  
+# Pipeline para análise de aproximadamente 67,5 milhões de registros  
 
 ## 📌 APRESENTAÇÃO
 
