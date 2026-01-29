@@ -25,12 +25,12 @@ armazenamento em Postgre e visualização com Power BI.
 Os dashboards abaixo foram construídos no Power BI a partir das tabelas
 construídas no Python e armazenadas no Postgres
 
-#Vendas
+# Vendas
 <img width="1412" height="792" alt="BI_Vendas" src="https://github.com/user-attachments/assets/7904205f-7a82-4eb0-8f2e-f85d4a4b41c4" />
-#Métricas sem outliers
+# Métricas sem outliers
 <img width="1410" height="793" alt="BI_Métricas_sem_outlier" src="https://github.com/user-attachments/assets/70900355-aaa4-4c71-a826-c3a6d4f4da9d" />
-#Métricas com outliers
+# Métricas com outliers
 <img width="1409" height="792" alt="BI_Métricas_com_outlier" src="https://github.com/user-attachments/assets/5bf4e27f-995b-4f0a-aff1-f09d8d72fb0f" />
-#Produtos Populares
+# Produtos Populares
 <img width="1409" height="791" alt="BI_Produtos_Populares" src="https://github.com/user-attachments/assets/223b4c2e-82e2-497d-95e1-921cbe31d592" />
 
